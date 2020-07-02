@@ -1,0 +1,115 @@
+﻿/*switch*/
+[class^="switch"] {
+    position: relative;
+    display: inline-block;
+}
+
+    [class^="switch"] input {
+        display: none;
+    }
+
+.switch-xs {
+    width: 37px;
+    height: 21px;
+}
+
+.switch-sm {
+    width: 48px;
+    height: 27px;
+}
+
+.switch-md {
+    width: 57px;
+    height: 31px;
+}
+
+.switch-lg {
+    width: 66px;
+    height: 35px;
+}
+
+[class^="slider"] {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+    [class^="slider"]:before {
+        position: absolute;
+        content: "";
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+        left: 4px;
+        bottom: 4px;
+    }
+
+.slider-xs:before {
+    height: 15px;
+    width: 15px;
+    left: 3px;
+    bottom: 3px;
+}
+
+.slider-sm:before {
+    height: 19px;
+    width: 19px;    
+}
+
+.slider-md:before {
+    height: 23px;
+    width: 23px;
+}
+
+.slider-lg:before {
+    height: 27px;
+    width: 27px;
+}
+
+input:checked + span[class^="slider"] {
+    background-color: #2196F3;
+}
+
+input:focus + span[class^="slider"] {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider-xs:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+}
+
+input:checked + .slider-sm:before {
+    -webkit-transform: translateX(21px);
+    -ms-transform: translateX(21px);
+    transform: translateX(21px);
+}
+
+input:checked + .slider-md:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+input:checked + .slider-lg:before {
+    -webkit-transform: translateX(31px);
+    -ms-transform: translateX(31px);
+    transform: translateX(31px);
+}
+/* Rounded sliders */
+span[class^="slider"].round {
+    border-radius: 34px;
+}
+
+    span[class^="slider"].round:before {
+        border-radius: 50%;
+    }
+
+/* **************************************** */

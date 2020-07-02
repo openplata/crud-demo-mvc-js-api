@@ -1,0 +1,90 @@
+﻿<div>
+    <div class="app-page-title">
+        <div class="page-title-wrapper">
+            <div class="page-title-heading">
+                <div class="page-title-icon">
+                    <i class="pe-7s-note2 icon-gradient bg-mean-fruit"></i>
+                </div>
+                <div>
+                    Materiales
+                    <div class="page-title-subheading">
+                        Información de Materiales
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="divFiltro" class="main-card mb-3 card">
+        <div class="card-body first_div">
+            <form class="">
+
+                <div class="form-row">
+
+                    <div class="col-md-12">
+                        <div class="position-relative form-group">
+                            <label for="examplePassword11" class="">Buscar</label>
+                            <input id="WapMaterial_txtBUSCAR" type="text" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="page-title-actions pull-right">
+                    <button id="btnBuscar" type="button" class="btn-shadow btn btn-info" onclick="_MaterialView.btnBuscar_Click();">
+                        <span class="btn-icon-wrapper pr-2 opacity-7">
+                            <i class="fa fa-search fa-w-20"></i>
+                        </span>
+                        Buscar
+                    </button>
+                    <button id="btnNuevo" type="button" class="mr-2 btn-icon btn-icon-only btn btn-outline-info" onclick="_MaterialView.btnNuevo_Click();">
+                        <i class="pe-7s-plus btn-icon-wrapper"> </i>
+                        Nuevo
+                    </button>
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="main-card mb-3 card">
+                <div class="card-header">
+                    Listado
+                </div>
+                <div class="table-responsive">
+                    <table class="align-middle mb-0 table table-borderless table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th class="text-center">Id</th>
+                                <th>Material</th>
+
+                                <th class="text-center">Estado</th>
+                                <th class="text-center">Editar</th>
+                                <th class="text-center">Eliminar</th>
+                            </tr>
+                        </thead>
+                        <tbody id="data-result">
+                        </tbody>
+                    </table>
+                </div>
+                <div class="d-block text-center card-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script type="text/javascript" src="~/ViewsScripts/APIRest/MaterialAPIRest.js"></script>
+<script type="text/javascript" src="~/ViewsScripts/Domain/MaterialLogicalEntity.js"></script>
+<script type="text/javascript" src="~/ViewsScripts/Views/MaterialView.js"></script>
+
+<script type="text/javascript">
+    function onResize() {
+        
+    }
+    _MaterialView.Load();
+</script>

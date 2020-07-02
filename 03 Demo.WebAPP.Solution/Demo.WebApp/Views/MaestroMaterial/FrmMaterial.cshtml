@@ -1,0 +1,50 @@
+﻿<div class="card-body">
+    <form id="frmFormulario">
+
+        <div class="position-relative form-group">
+            <label for="Id_Material">Id</label>
+            <input name="Id_Material" id="Id_Material" placeholder="Id" type="text" class="form-control">
+        </div>
+        <div class="position-relative form-group">
+            <label for="Descripcion">Descripción</label>
+            <input name="Descripcion" id="Descripcion" placeholder="Descripción" type="text" class="form-control" maxlength="30">
+        </div>
+        <div class="position-relative form-group">
+            <label for="Estado">Estado</label>
+            <select name="Estado" id="Estado" class="form-control">
+                <option value="D">Disponible</option>
+                <option value="X">Eliminado</option>
+            </select>
+        </div>
+    </form>
+
+    <div class="divider"></div>
+    <div class="clearfix">
+
+        <button id="btnGuardar" type="button" class="btn-shadow float-right btn-wide btn-pill mr-3 btn btn-outline-primary"
+                onclick="_MaterialView.btnGuardar_Click()">
+            Guardar
+        </button>
+        <button id="btnCancelar" type="button" class="btn-shadow float-right btn-wide btn-pill mr-3 btn btn-outline-secondary"
+                onclick="_FormUtil.BootstrapDialogCloseFormularioModal()">
+            Cancelar
+        </button>
+
+
+    </div>
+</div>
+
+<div id="divBlockForm">
+</div>
+
+<script type="text/javascript">
+    _LayoutView.Block('none');
+    Accion = '@ViewBag.Accion';
+    Id_Material = '@ViewBag.Id_Material';
+
+    _FrmFormularioData = {
+        Accion: Accion,
+        Id_Material: Id_Material
+    };
+    _MaterialView.FrmFormulario_Ready(_FrmFormularioData);
+</script>
