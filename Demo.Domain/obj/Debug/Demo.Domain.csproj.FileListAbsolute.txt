@@ -1,0 +1,15 @@
+D:\TFS\71. RJTelecom\Nueva carpeta\04 RJTelecom.WebAPIRest.Solution\RJTelecom.Domain\bin\Debug\Demo.Domain.dll
+D:\TFS\71. RJTelecom\Nueva carpeta\04 RJTelecom.WebAPIRest.Solution\RJTelecom.Domain\bin\Debug\Demo.Domain.pdb
+D:\TFS\71. RJTelecom\Nueva carpeta\04 RJTelecom.WebAPIRest.Solution\RJTelecom.Domain\obj\Debug\Demo.Domain.csproj.CoreCompileInputs.cache
+D:\TFS\71. RJTelecom\Nueva carpeta\04 RJTelecom.WebAPIRest.Solution\RJTelecom.Domain\obj\Debug\Demo.Domain.dll
+D:\TFS\71. RJTelecom\Nueva carpeta\04 RJTelecom.WebAPIRest.Solution\RJTelecom.Domain\obj\Debug\Demo.Domain.pdb
+D:\TFS\01. Openplata\70.00. Demo.Solution\01. Visual Studio 2019 C# - MVC - Javascript - API - SQLServer\02 Demo.WebAPIRest.Solution\Demo.Domain\bin\Debug\Demo.Domain.dll
+D:\TFS\01. Openplata\70.00. Demo.Solution\01. Visual Studio 2019 C# - MVC - Javascript - API - SQLServer\02 Demo.WebAPIRest.Solution\Demo.Domain\bin\Debug\Demo.Domain.pdb
+D:\TFS\01. Openplata\70.00. Demo.Solution\01. Visual Studio 2019 C# - MVC - Javascript - API - SQLServer\02 Demo.WebAPIRest.Solution\Demo.Domain\obj\Debug\Demo.Domain.csproj.CoreCompileInputs.cache
+D:\TFS\01. Openplata\70.00. Demo.Solution\01. Visual Studio 2019 C# - MVC - Javascript - API - SQLServer\02 Demo.WebAPIRest.Solution\Demo.Domain\obj\Debug\Demo.Domain.dll
+D:\TFS\01. Openplata\70.00. Demo.Solution\01. Visual Studio 2019 C# - MVC - Javascript - API - SQLServer\02 Demo.WebAPIRest.Solution\Demo.Domain\obj\Debug\Demo.Domain.pdb
+D:\TFS\01. Openplata\70.00. Demo.Solution\01. VS2019 C# JS API\02 Demo.WebAPIRest.Solution\Demo.Domain\bin\Debug\Demo.Domain.dll
+D:\TFS\01. Openplata\70.00. Demo.Solution\01. VS2019 C# JS API\02 Demo.WebAPIRest.Solution\Demo.Domain\bin\Debug\Demo.Domain.pdb
+D:\TFS\01. Openplata\70.00. Demo.Solution\01. VS2019 C# JS API\02 Demo.WebAPIRest.Solution\Demo.Domain\obj\Debug\Demo.Domain.csproj.CoreCompileInputs.cache
+D:\TFS\01. Openplata\70.00. Demo.Solution\01. VS2019 C# JS API\02 Demo.WebAPIRest.Solution\Demo.Domain\obj\Debug\Demo.Domain.dll
+D:\TFS\01. Openplata\70.00. Demo.Solution\01. VS2019 C# JS API\02 Demo.WebAPIRest.Solution\Demo.Domain\obj\Debug\Demo.Domain.pdb
